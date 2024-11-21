@@ -50,6 +50,20 @@ Before running this script, ensure you have:
 1. Navigate to the project folder where weather_fetcher.py is saved.
 2. Run the script:
 - python weather_fetcher.py
+3. Enter the city name when prompted to fetch the weather information.
 
+---
+
+#### Error Handling
+
+- If the script cannot fetch data due to network issues or invalid city names, it will display an error message.
+- Ensure you have entered a valid city name and your API key is correct.
+
+---
+
+#### Future Improvements
+- Support for multiple cities at once.
+- Error handling for invalid API keys or bad responses.
+- Extend the script to fetch a weather forecast for the upcoming days.
 
 
