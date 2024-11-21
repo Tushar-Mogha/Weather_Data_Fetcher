@@ -20,3 +20,36 @@ Before running this script, ensure you have:
 1. **Python 3.x** installed.
 2. **`requests` library** installed. If not, install it using:
 - pip install requests
+3. Weatherstack API key. Sign up for a free or paid account at Weatherstack and obtain your API key.
+
+---
+
+### How It Works
+
+1. The script uses the Weatherstack API to fetch current weather data for a specified city.
+2. It sends a GET request to Weatherstack with the city name and API key.
+3. The data is processed and displayed on the console.
+
+---
+
+### Usage
+
+#### Step 1: Get Your Weatherstack API Key
+
+1. Visit Weatherstack and sign up for a free account.
+2. Obtain your API Key from the API keys page.
+
+#### Step 2: Set Up Your API Key
+
+1. Download or clone this repository.
+2. Open the Python script weather_fetcher.py.
+3. Replace the placeholder "your_weatherstack_api_key_here" in the script with your actual Weatherstack API key.
+
+#### Step 3: Run the Program
+
+1. Navigate to the project folder where weather_fetcher.py is saved.
+2. Run the script:
+- python weather_fetcher.py
+
+
+
