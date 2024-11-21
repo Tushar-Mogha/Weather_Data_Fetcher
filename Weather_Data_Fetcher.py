@@ -8,7 +8,6 @@ def fetch_weather(city_name, api_key):
     :param api_key: Your Weatherstack API key.
     :return: Weather data as a dictionary.
     """
-    # Correct base URL for Weatherstack API
     base_url = "http://api.weatherstack.com/current"
     
     # Parameters including city name and API key
@@ -19,9 +18,9 @@ def fetch_weather(city_name, api_key):
     }
 
     try:
-        # Send the GET request to Weatherstack API
+        # Sends the GET request to Weatherstack API
         response = requests.get(base_url, params=params)
-        response.raise_for_status()  # Raise an error for HTTP errors
+        response.raise_for_status()  # Raises an error for HTTP errors
         return response.json()
     except requests.exceptions.RequestException as e:
         print(f"An error occurred: {e}")
@@ -51,10 +50,10 @@ def display_weather(data):
         print("Could not retrieve weather data.")
 
 if __name__ == "__main__":
-    # Replace with your Weatherstack API key
+    # API key from the weatherstack web app
     API_KEY = "a4a63f386b4c27b947bdefabc6422923";
     city = input("Enter the city name: ")
     
-    # Fetch weather data and display it
+    # Fetches weather data and display it
     weather_data = fetch_weather(city, API_KEY)
     display_weather(weather_data)
