@@ -57,7 +57,17 @@ Before running this script, ensure you have:
     ```bash
     python weather_fetcher_gui.py
     ```
+
 3. Enter the city name when prompted in the GUI to fetch the weather information.
+
+
+
+![Screenshot 2024-11-22 165345](https://github.com/user-attachments/assets/949fa132-5ac5-4f94-9512-2b6a15d831c1)
+
+
+
+![Screenshot 2024-11-22 165428](https://github.com/user-attachments/assets/bd27d4b2-4cf7-4e2b-b967-8fd1ccbb3088)
+
 
 ---
 
